@@ -76,7 +76,7 @@ export default function Filters() {
             </div>
             <div>
                 <span className='uppercase text-sm text-gray-500 mr-2'>Order by</span>
-                {/* <Button.Group>
+                <Button.Group>
                     {orderButtons.map(({
                         label, icon: Icon, value
                     }) => (
@@ -92,7 +92,7 @@ export default function Filters() {
                         </Button>
                     )
                     )}
-                </Button.Group> */}
+                </Button.Group>
             </div>
             <div>
                 <span className='uppercase text-sm text-gray-500 mr-2'>Page size</span>
